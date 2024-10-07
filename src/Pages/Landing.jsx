@@ -14,7 +14,7 @@ const Landing = () => {
     subtitle: "text-black text-3xl text-center mb-4 px-2",
     tagline: "text-black text-center text-xl",
     button:
-      "bg-attention text-black font-bold text-center text-base px-8 py-3 my-3 rounded-md hover:outline outline-4 outline-offset-4 outline-attention hover:text-accent",
+      "bg-attention text-black font-bold text-center text-base px-8 py-3 my-3 rounded-md hover:outline outline-4 outline-offset-4 outline-attention hover:text-accent mb-12",
   };
 
   return (
@@ -40,7 +40,7 @@ const Landing = () => {
 
         {/* CALL TO ACTION */}
         <div className="flex justify-center ">
-          <Link to="/">
+          <Link to="../contact">
             <button className={styles.button}>Book</button>
           </Link>
         </div>

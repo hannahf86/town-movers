@@ -25,3 +25,7 @@ h3 {
 .slick-slide > div {
   margin: 0 1rem;
 }
+
+.slick-arrow {
+  background-color: #fafafa;
+}

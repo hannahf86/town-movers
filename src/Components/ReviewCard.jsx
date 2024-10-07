@@ -13,7 +13,7 @@ const ReviewCard = () => {
   const styles = {
     cardContainer:
       "bg-white border border-4 border-accent rounded-md w-4/5 m-auto my-2 p-2",
-    review: "text-center font-bold text-accent text-lg md:text-base",
+    review: "text-center font-bold text-accent text-lg lg:text-sm md:text-base",
     name: "text-black/80 font-bold mt-2",
   };
 
