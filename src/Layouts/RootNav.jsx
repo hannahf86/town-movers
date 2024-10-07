@@ -11,8 +11,7 @@ import { motion } from "framer-motion";
 
 // COMPONENTS
 import ToggleButton from "./ToggleButton";
-
-// IMAGES
+import Footer from "./Footer";
 
 // ICONS
 import { HiHome, HiBriefcase, HiBookOpen, HiMail } from "react-icons/hi";
@@ -127,6 +126,7 @@ const RootNav = () => {
       <main>
         <Outlet />
       </main>
+      <Footer />
     </div>
   );
 };

@@ -14,7 +14,7 @@ const Landing = () => {
     subtitle: "text-black text-3xl text-center mb-4 px-2",
     tagline: "text-black text-center text-xl",
     button:
-      "bg-accent text-white text-center text-xl px-8 py-3 mb-8 rounded-md hover:outline outline-4 outline-offset-4 outline-accent",
+      "bg-attention text-black font-bold text-center text-base px-8 py-3 my-3 rounded-md hover:outline outline-4 outline-offset-4 outline-attention hover:text-accent",
   };
 
   return (

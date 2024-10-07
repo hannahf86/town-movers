@@ -3,6 +3,8 @@
 // ICONS
 import { FaCheck, FaMobileAlt } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
+
+// RRD
 import { Link } from "react-router-dom";
 
 const Services = () => {
@@ -10,7 +12,7 @@ const Services = () => {
   const mobileStyles = {
     background: "flex flex-col md:hidden relative bg-white pt-28",
     titleContainer: " px-2",
-    title: "text-center text-4xl text-accent font-bold tracking-wider",
+    title: "text-center text-5xl text-accent font-bold tracking-wider mb-8",
     tagline: "text-black my-4 text-center mx-6 font-light text-base",
     cTAContainer:
       "flex flex-col justify-center bg-accent w-full px-6 py-10 my-12",
@@ -18,7 +20,7 @@ const Services = () => {
     cTATag: "text-white text-center mt-4 text-md font-light",
     buttonContainer: "flex justify-center mt-4",
     button:
-      "bg-attention text-black font-bold text-center text-base px-8 py-3 my-3 rounded-md hover:outline outline-4 outline-offset-4 outline-attention",
+      "bg-attention text-black font-bold text-center text-base px-8 py-3 my-3 rounded-md hover:outline outline-4 outline-offset-4 outline-attention hover:text-accent",
   };
 
   const desktopStyles = {
