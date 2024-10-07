@@ -4,6 +4,9 @@ import { FaMobileAlt } from "react-icons/fa";
 // RRD
 import { Link } from "react-router-dom";
 
+// IMAGES
+import lorry from "../Assets/lorry.jpg";
+
 const About = () => {
   // STYLES
   const mobileStyles = {
@@ -38,16 +41,20 @@ const About = () => {
           community for <strong className="text-accent">20 years</strong>,
           helping people get from A to B with ease and a smile. <br />
           <br />
-          We offer <strong className="text-accent">
-            flexible, affordable
-          </strong>{" "}
-          services to suit your needs – no job is too big or small. From full
-          house moves to single-item pick-ups, we’ve got you covered. <br />
-          <br />
-          Our team knows York like the back of our hand, so you can trust us to
-          get your items where they need to go, quickly and safely.
-          <br />
-          <br />
+        </p>
+        <div className="lg:grid grid-cols-2">
+          <p className="mx-8 text-base md:text-md md:mx-12 lg:ml-40 text-justify lg:pt-12">
+            We offer{" "}
+            <strong className="text-accent">flexible, affordable</strong>{" "}
+            services to suit your needs – no job is too big or small. From full
+            house moves to single-item pick-ups, we’ve got you covered. <br />
+            <br />
+            Our team knows York like the back of our hand, so you can trust us
+            to get your items where they need to go, quickly and safely.
+          </p>
+          <img src={lorry} className="px-32" alt="moving lorry and house" />
+        </div>
+        <p className="mx-8 text-base md:text-md md:mx-12 lg:mx-40 text-justify lg:pt-12">
           <strong>What makes us stand out? </strong>
           <br />
           It’s simple: <strong className="text-accent">personal</strong>,{" "}

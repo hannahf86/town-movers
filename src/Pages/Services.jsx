@@ -7,13 +7,16 @@ import { ImCross } from "react-icons/im";
 // RRD
 import { Link } from "react-router-dom";
 
+// IMAGES
+import moving from "../Assets/moving.jpg";
+
 const Services = () => {
   // STYLES
   const mobileStyles = {
     background: "flex flex-col  relative bg-white pt-28",
     titleContainer: " px-2",
     title: "text-center text-5xl text-accent font-bold tracking-wider mb-8",
-    tagline: "text-black my-4 text-center mx-6 font-light text-base",
+    tagline: "text-black mt-4 mb-12 text-center mx-6 font-light text-base",
     cTAContainer:
       "flex flex-col justify-center bg-accent w-full px-6 py-10 my-12",
     cTATitle: "text-white text-xl text-center",
@@ -34,59 +37,64 @@ const Services = () => {
           </h2>
 
           {/* SERVICES */}
-          <ul className="flex flex-col justify-center items-center text-black text-md px-3 text-center">
-            <li className="flex items-center my-2">
-              <div className="text-green mr-3">
-                <FaCheck />
-              </div>
-              <p>House moves</p>
-            </li>
-            <li className="flex items-center my-2">
-              <div className="text-green mr-3">
-                <FaCheck />
-              </div>
-              <p> Relocations</p>
-            </li>
-            <li className="flex items-center my-2">
-              <div className="text-green mr-3">
-                <FaCheck />
-              </div>
-              <p>House clearances</p>
-            </li>
-            <li className="flex items-center my-2">
-              <div className="text-green mr-3">
-                <FaCheck />
-              </div>
-              <p>EBay collections</p>
-            </li>
-            <li className="flex items-center my-2">
-              <div className="text-green mr-3">
-                <FaCheck />
-              </div>
-              <p>Facebook marketplace items</p>
-            </li>
-            <li className="flex items-center my-2">
-              <div className="text-green mr-3">
-                <FaCheck />
-              </div>
-              <p>Garden clearance</p>
-            </li>
-            <li className="flex items-center my-2">
-              <div className="text-green mr-3">
-                <FaCheck />
-              </div>
-              <p>Timber and wood</p>
-            </li>
-            <li className="flex items-center my-2 pt-3">
-              <div className="text-red mr-3">
-                <ImCross />
-              </div>
-              <p className="font-bold">No household waste or tip runs</p>
-            </li>
-            <li className="font-bold text-center">
-              Keeping our vans hygienic is our top priority
-            </li>
-          </ul>
+          <div className="lg:grid grid-cols-2 mx-20 items-center">
+            <ul className="flex flex-col justify-center items-center text-black text-md px-3 text-center">
+              <li className="flex items-center my-2">
+                <div className="text-green mr-3">
+                  <FaCheck />
+                </div>
+                <p>House moves</p>
+              </li>
+              <li className="flex items-center my-2">
+                <div className="text-green mr-3">
+                  <FaCheck />
+                </div>
+                <p> Relocations</p>
+              </li>
+              <li className="flex items-center my-2">
+                <div className="text-green mr-3">
+                  <FaCheck />
+                </div>
+                <p>House clearances</p>
+              </li>
+              <li className="flex items-center my-2">
+                <div className="text-green mr-3">
+                  <FaCheck />
+                </div>
+                <p>eBay collections</p>
+              </li>
+              <li className="flex items-center my-2">
+                <div className="text-green mr-3">
+                  <FaCheck />
+                </div>
+                <p>Facebook marketplace items</p>
+              </li>
+              <li className="flex items-center my-2">
+                <div className="text-green mr-3">
+                  <FaCheck />
+                </div>
+                <p>Garden clearance</p>
+              </li>
+              <li className="flex items-center my-2">
+                <div className="text-green mr-3">
+                  <FaCheck />
+                </div>
+                <p>Timber and wood</p>
+              </li>
+              <li className="flex items-center my-2 pt-3">
+                <div className="text-red mr-3">
+                  <ImCross />
+                </div>
+                <p className="font-bold">No household waste or tip runs</p>
+              </li>
+              <li className="font-bold text-center">
+                Keeping our vans hygienic is our top priority
+              </li>
+            </ul>
+            <div className="p-8">
+              <img src={moving} alt="men putting things in a lorry" />
+            </div>
+          </div>
         </div>
 
         {/* CALL TO ACTION */}

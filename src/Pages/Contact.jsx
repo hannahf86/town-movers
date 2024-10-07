@@ -46,7 +46,7 @@ const Contact = () => {
     titleContainer: "",
     title: "text-center text-5xl text-accent font-bold tracking-wider mb-8",
     tagline: "text-black my-4 text-center mx-6 text-base",
-    form: "p-4 w-full md:w-4/6 m-auto mt-4 flex flex-col justify-center ",
+    form: "p-4 w-full md:w-4/6 m-auto mt-4 flex flex-col justify-center mb-20",
     input: "py-4 pl-4 border-2 border-accent rounded-md mx-auto mb-4 w-5/6 ",
     message:
       "py-3 pl-3 border-2 border-accent h-32 rounded-md mx-auto mb-4 h-28 w-5/6",
