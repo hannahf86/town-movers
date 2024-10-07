@@ -42,13 +42,14 @@ const Contact = () => {
 
   // STYLES
   const mobileStyles = {
-    background: "flex flex-col md:hidden relative bg-white pt-28",
+    background: "flex flex-col relative bg-white pt-28",
     titleContainer: "",
     title: "text-center text-5xl text-accent font-bold tracking-wider mb-8",
     tagline: "text-black my-4 text-center mx-6 text-base",
-    form: "p-4 w-full mt-4 flex flex-col justify-center ",
-    input: "py-4 pl-4 border rounded-md mx-auto mb-4 w-5/6 ",
-    message: "py-3 pl-3 border h-32 rounded-md mx-auto mb-4 h-28 w-5/6",
+    form: "p-4 w-full md:w-4/6 m-auto mt-4 flex flex-col justify-center ",
+    input: "py-4 pl-4 border-2 border-accent rounded-md mx-auto mb-4 w-5/6 ",
+    message:
+      "py-3 pl-3 border-2 border-accent h-32 rounded-md mx-auto mb-4 h-28 w-5/6",
     button:
       "bg-accent text-white font-bold text-center text-base px-8 w-5/6 py-3 my-3 rounded-md hover:outline outline-4 outline-offset-4 outline-accent self-center",
   };

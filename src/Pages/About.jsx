@@ -7,9 +7,10 @@ import { Link } from "react-router-dom";
 const About = () => {
   // STYLES
   const mobileStyles = {
-    background: "flex flex-col md:hidden relative bg-white pt-28",
+    background: "flex flex-col  relative bg-white pt-28",
     titleContainer: "text-center ",
-    title: "text-center text-5xl text-accent font-bold tracking-wider mb-8",
+    title:
+      "text-center text-5xl text-accent font-bold tracking-wider mb-8 lg:my-12",
     subtitle: "text-black font-bold text-lg my-4 pt-8 text-center mx-6",
     cTAContainer:
       "flex flex-col justify-center bg-accent w-full px-6 py-6 mt-12",
@@ -25,7 +26,7 @@ const About = () => {
       {/* ------- MOBILE ------- */}
       <div className={mobileStyles.background}>
         <h1 className={mobileStyles.title}>About Us</h1>
-        <p className="mx-8 text-base md:text-md md:mx-12 text-justify">
+        <p className="mx-8 text-base md:text-md md:mx-12 lg:mx-40 text-justify">
           Welcome to <strong className="text-accent">Town 2 Town Movers</strong>
           , York’s most reliable and friendly man with a van service! <br />
           <br />

@@ -108,14 +108,16 @@ const RootNav = () => {
       {/* DESKTOP NAV */}
       <nav className={desktopStyles.nav}>
         {/* LINKS */}
-        <Link to="services" className={desktopStyles.link}>
+        {/* <Link to="services" className={desktopStyles.link}>
           SERVICES
         </Link>
         <Link to="about" className={desktopStyles.link}>
           FAQs
-        </Link>
+        </Link> */}
 
-        <Link className={desktopStyles.button}>Contact</Link>
+        <Link to="contact" className={desktopStyles.button}>
+          Get a free quote
+        </Link>
       </nav>
 
       <main>

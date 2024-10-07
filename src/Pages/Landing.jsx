@@ -40,7 +40,7 @@ const Landing = () => {
 
         {/* CALL TO ACTION */}
         <div className="flex justify-center ">
-          <Link to="../contact">
+          <Link to="/contact">
             <button className={styles.button}>Book</button>
           </Link>
         </div>
