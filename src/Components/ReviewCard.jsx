@@ -21,7 +21,7 @@ const ReviewCard = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 400,
     slidesToShow: 4,
     slidesToScroll: 4,
     initialSlide: 0,
@@ -42,6 +42,7 @@ const ReviewCard = () => {
           initialSlide: 2,
           infinite: true,
           dots: true,
+          autoplay: true,
         },
       },
       {
@@ -51,6 +52,7 @@ const ReviewCard = () => {
           slidesToScroll: 1,
           infinite: true,
           dots: true,
+          autoplay: true,
         },
       },
     ],

@@ -25,7 +25,7 @@ const About = () => {
       {/* ------- MOBILE ------- */}
       <div className={mobileStyles.background}>
         <h1 className={mobileStyles.title}>About Us</h1>
-        <p className="mx-6 text-base md:text-md md:mx-12">
+        <p className="mx-8 text-base md:text-md md:mx-12 text-justify">
           Welcome to <strong className="text-accent">Town 2 Town Movers</strong>
           , York’s most reliable and friendly man with a van service! <br />
           <br />

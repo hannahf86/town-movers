@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const Services = () => {
   // STYLES
   const mobileStyles = {
-    background: "flex flex-col md:hidden relative bg-white pt-28",
+    background: "flex flex-col  relative bg-white pt-28",
     titleContainer: " px-2",
     title: "text-center text-5xl text-accent font-bold tracking-wider mb-8",
     tagline: "text-black my-4 text-center mx-6 font-light text-base",
@@ -21,23 +21,6 @@ const Services = () => {
     buttonContainer: "flex justify-center mt-4",
     button:
       "bg-attention text-black font-bold text-center text-base px-8 py-3 my-3 rounded-md hover:outline outline-4 outline-offset-4 outline-attention hover:text-accent",
-  };
-
-  const desktopStyles = {
-    background: "flex flex-col hidden md:block relative bg-white pt-24",
-    titleContainer: " ",
-    title: "text-center text-4xl text-black font-bold mb-8",
-    tagline: "text-black my-4 text-center md:text-base mx-20",
-
-    cardContainer: "flex flex-wrap justify-center lg:mx-20",
-
-    cTAContainer:
-      "flex flex-col justify-center bg-accent w-full px-6 py-10 my-12",
-    cTATitle: "text-white text-lg text-center",
-    cTATag: "text-white text-center mt-4 text-md",
-    buttonContainer: "flex justify-center my-4",
-    button:
-      "text-white text-center text-sm rounded-md py-2 px-12 bg-black mt-4 hover:bg-white hover:text-black",
   };
 
   return (
@@ -51,7 +34,7 @@ const Services = () => {
           </h2>
 
           {/* SERVICES */}
-          <ul className="flex flex-col justify-center items-center text-black text-md px-3">
+          <ul className="flex flex-col justify-center items-center text-black text-md px-3 text-center">
             <li className="flex items-center my-2">
               <div className="text-green mr-3">
                 <FaCheck />
@@ -86,7 +69,7 @@ const Services = () => {
               <div className="text-green mr-3">
                 <FaCheck />
               </div>
-              <p>Green waste and garden clearance</p>
+              <p>Garden clearance</p>
             </li>
             <li className="flex items-center my-2">
               <div className="text-green mr-3">
@@ -121,30 +104,6 @@ const Services = () => {
           <Link to="../contact" className={mobileStyles.buttonContainer}>
             <button className={mobileStyles.button}>Get in touch</button>
           </Link>
-        </div>
-      </div>
-
-      {/* ------- DESKTOP ------- */}
-      <div className={desktopStyles.background}>
-        <div className={desktopStyles.titleContainer}>
-          <h1 className={desktopStyles.title}>Services</h1>
-          <h2 className={desktopStyles.tagline}>
-            We offer an extensive variety of landscaping and stonemasonary.
-            <br />
-            <br />
-            Below are some highlights from our most recent projects.
-          </h2>
-        </div>
-
-        {/* CALL TO ACTION */}
-        <div id="cTAContainer" className={desktopStyles.cTAContainer}>
-          <h3 className={desktopStyles.cTATitle}>Have a project in mind?</h3>
-          <p className={desktopStyles.cTATag}>
-            Contact LA Groundworks today to discuss your requirements
-          </p>
-          <a href="/#contact" className={desktopStyles.buttonContainer}>
-            <button className={desktopStyles.button}>Get in touch</button>
-          </a>
         </div>
       </div>
     </section>

@@ -12,12 +12,12 @@ const Footer = () => {
     background:
       "bg-black bottom-0 py-8 grid grid-cols-2 px-1 md:px-24 lg:px-40",
 
-    leftCol: "ml-6 md:ml-12 flex flex-col col-start-1 col-end-3 self-center",
+    leftCol: "ml-6 md:ml-12 flex flex-col col-start-1 self-center",
     socials: "flex flex-col mt-4",
-    icon: "my-1 text-accent",
+    icon: "my-2 text-accent",
 
     rightCol:
-      "col-start-1 text-left ml-6 mt-12 sm:col-start-2 col-end-3 flex flex-col sm:ml-0 sm:text-right sm:self-center sm:mr-6 sm:mt-0 md:mr-12",
+      "col-start-1 text-left ml-6 mt-12 row-start-1 col-start-2 flex flex-col sm:ml-0 sm:text-right sm:self-center sm:mr-6 sm:mt-0 md:mr-12",
     link: "text-white my-1 hover:bg-orange hover:text-accent py-1 px-1",
 
     bottomRow: "col-start-1 col-end-3 flex justify-center mt-12",

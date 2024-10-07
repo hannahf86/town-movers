@@ -25,7 +25,7 @@ const Landing = () => {
           TOWN 2 TOWN <h1 className="text-attention">MOVERS</h1>
         </h1>
         <h2 className={styles.subtitle}>Man with a van service</h2>
-        <div className="container flex justify-between px-8 mb-8">
+        <div className="container flex justify-between px-8 mb-8 md:px-52 lg:px-60 xl:px-96">
           <HiMiniStar size={40} className="text-attention" />
           <HiMiniStar size={40} className="text-attention" />
           <HiMiniStar size={40} className="text-attention" />
