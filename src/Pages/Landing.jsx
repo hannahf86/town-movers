@@ -9,12 +9,12 @@ import ReviewCard from "../Components/ReviewCard";
 
 const Landing = () => {
   const styles = {
-    background: "bg-white pt-20 h-full w-full px-6",
-    title: "text-accent text-6xl text-center my-12",
-    subtitle: "text-black text-3xl text-center mb-4",
+    background: "bg-white pt-20 h-full w-full ",
+    title: "text-accent text-6xl text-center my-12 px-2",
+    subtitle: "text-black text-3xl text-center mb-4 px-2",
     tagline: "text-black text-center text-xl",
     button:
-      "bg-accent text-white text-center text-xl px-8 py-3 rounded-md hover:outline outline-4 outline-offset-4 outline-accent",
+      "bg-accent text-white text-center text-xl px-8 py-3 mb-8 rounded-md hover:outline outline-4 outline-offset-4 outline-accent",
   };
 
   return (
@@ -22,7 +22,7 @@ const Landing = () => {
       {/* PAGE TITLE */}
       <div className="container">
         <h1 className={styles.title}>
-          TOWN to TOWN <h1 className="text-attention">MOVERS</h1>
+          TOWN 2 TOWN <h1 className="text-attention">MOVERS</h1>
         </h1>
         <h2 className={styles.subtitle}>Man with a van service</h2>
         <div className="container flex justify-between px-8 mb-8">
@@ -34,12 +34,12 @@ const Landing = () => {
         </div>
 
         {/* REVIEW CARD */}
-        <div className="py-4">
+        <div className="p-6">
           <ReviewCard />
         </div>
 
         {/* CALL TO ACTION */}
-        <div className="flex justify-center mt-8">
+        <div className="flex justify-center ">
           <Link to="/">
             <button className={styles.button}>Book</button>
           </Link>

@@ -49,7 +49,7 @@ const RootNav = () => {
     fullMenu:
       "bg-black/80 fixed w-full h-screen p-20 md:p-0 flex flex-col justify-center items-center z-30 md:w-2/6",
     menuItem:
-      "bg-accent text-white w-80 h-16 m-8 rounded-lg flex justify-center items-center sm:w-96 sm:h-16 sm:my-8 hover:bg-black hover:text-accent",
+      "bg-accent text-white w-80 h-16 m-8 rounded-lg flex justify-center items-center sm:w-96 sm:h-16 sm:my-8 hover:bg-black hover:text-attention",
     menuIcon: "mr-2 tracking-widest text-md sm:text-md",
   };
 
@@ -81,21 +81,21 @@ const RootNav = () => {
               </span>
             </Link>
 
-            <Link to="/#services">
+            <Link to="services">
               <span className={mobileStyles.menuItem}>
                 <HiBriefcase className={mobileStyles.menuIcon} />
                 <p className="text-sm sm:text-md">Services</p>
               </span>
             </Link>
 
-            <Link to="/#about">
+            <Link to="about">
               <span className={mobileStyles.menuItem}>
                 <HiBookOpen className={mobileStyles.menuIcon} />
                 <p className="text-sm sm:text-md">About Us</p>
               </span>
             </Link>
 
-            <Link to="/#contact">
+            <Link to="contact">
               <span className={mobileStyles.menuItem}>
                 <HiMail className={mobileStyles.menuIcon} />
                 <p className="text-sm sm:text-md">Contact</p>
