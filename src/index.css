@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+}
+
+.slick-slide > div {
+  margin: 0 1rem;
+}
