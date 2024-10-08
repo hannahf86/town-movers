@@ -19,7 +19,6 @@ const ReviewCard = () => {
 
   // slider
   const settings = {
-    dots: true,
     infinite: true,
     speed: 400,
     slidesToShow: 4,
@@ -29,6 +28,7 @@ const ReviewCard = () => {
       {
         breakpoint: 1024,
         settings: {
+          dots: false,
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
