@@ -7,10 +7,13 @@ import { HiMiniStar } from "react-icons/hi2";
 // COMPONENTS
 import ReviewCard from "../Components/ReviewCard";
 
+// IMAGES
+import logo from "../Assets/logo.webp";
+
 const Landing = () => {
   const styles = {
     background: "bg-white pt-20 h-full w-full ",
-    title: "text-accent text-6xl text-center my-12 px-2",
+    title: "text-accent text-6xl text-center mb-12 mt-4 px-2",
     subtitle: "text-black text-3xl text-center mb-4 px-2",
     tagline: "text-black text-center text-xl",
     button:
@@ -21,6 +24,7 @@ const Landing = () => {
     <div id="landing" className={styles.background}>
       {/* PAGE TITLE */}
       <div className="container">
+        <img src={logo} alt="logo" className="w-32 mx-auto pt-6" />
         <h1 className={styles.title}>
           TOWN 2 TOWN <h1 className="text-attention">MOVERS</h1>
         </h1>
