@@ -43,7 +43,7 @@ const About = () => {
           <br />
         </p>
         <div className="lg:grid grid-cols-2">
-          <p className="mx-8 text-base md:text-md md:mx-12 lg:ml-40 text-justify lg:pt-12">
+          <p className="text-base mx-8 md:text-md md:mx-12 lg:ml-8 lg:mt-16 text-justify lg:pt-12">
             We offer{" "}
             <strong className="text-accent">flexible, affordable</strong>{" "}
             services to suit your needs – no job is too big or small. From full
@@ -52,7 +52,11 @@ const About = () => {
             Our team knows York like the back of our hand, so you can trust us
             to get your items where they need to go, quickly and safely.
           </p>
-          <img src={lorry} className="px-32" alt="moving lorry and house" />
+          <img
+            src={lorry}
+            className="px-16 py-8 sm:py-4 sm:px-56 lg:px-12"
+            alt="moving lorry and house"
+          />
         </div>
         <p className="mx-8 text-base md:text-md md:mx-12 lg:mx-40 text-justify lg:pt-12">
           <strong>What makes us stand out? </strong>
